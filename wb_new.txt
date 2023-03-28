@@ -1,0 +1,98 @@
+22:08:23 [ERR][      Workbench]: Console redirection failed.
+22:08:23 [INF][      Workbench]: Starting up Workbench
+22:08:23 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\WINDOWS\system32
+	TickCount: 568821156
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 42995712
+22:08:23 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DOGAC
+	USERPROFILE = C:\Users\dogac
+	HOMEPATH = \Users\dogac
+	LOCALAPPDATA = C:\Users\dogac\AppData\Local
+	configsetroot = C:\WINDOWS\ConfigSetRoot
+	PROCESSOR_ARCHITECTURE = AMD64
+	Path = C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Users\dogac\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dogac\AppData\Local\Programs\Python\Python310\;C:\Users\dogac\AppData\Local\Microsoft\WindowsApps;;C:\Users\dogac\AppData\Local\Programs\Microsoft VS Code\bin
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PROCESSOR_LEVEL = 6
+	LOGONSERVER = \\DOGAC
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+	SystemRoot = C:\WINDOWS
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	APPDATA = C:\Users\dogac\AppData\Roaming
+	PROCESSOR_REVISION = 8e0b
+	USERNAME = dogac
+	CommonProgramW6432 = C:\Program Files\Common Files
+	TEMP = C:\Users\dogac\AppData\Local\Temp
+	OneDrive = C:\Users\dogac\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DOGAC
+	PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 11, GenuineIntel
+	ComSpec = C:\WINDOWS\system32\cmd.exe
+	SESSIONNAME = Console
+	USERDOMAIN = DOGAC
+	SystemDrive = C:
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 8
+	TMP = C:\Users\dogac\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\WINDOWS
+	EFC_7688 = 1
+	PUBLIC = C:\Users\Public
+22:08:23 [INF][      Workbench]: Current version given by meta info is: 8.0.32
+22:08:23 [INF][      Workbench]: Setting PATH to: C:\WINDOWS\system32;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Users\dogac\AppData\Local\Microsoft\WindowsApps;;C:\Users\dogac\AppData\Local\Programs\Microsoft VS Code\bin
+22:08:23 [INF][ mforms managed]: Initializing mforms wrapper
+22:08:23 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	user data dir: C:\Users\dogac\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+22:08:23 [INF][      WBContext]: WbContext::init
+22:08:23 [INF][            WBA]: Looking for extension modules for WBA...
+22:08:23 [INF][            WBA]: 0 extension modules found
+22:08:23 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+22:08:23 [WRN][            grt]: C:\Users\dogac\AppData\Roaming\MySQL\Workbench\connections.xml:18: link '{4827002F-EBBF-4599-9B21-4418AD88C3DE}' <object GrtObject> key=owner could not be resolved
+22:08:23 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+22:08:23 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.32 CE build 2612062 (64 bit)
+	Configuration Directory: C:\Users\dogac\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	Cairo Version: 1.17.6
+	OS: Microsoft Windows 10 Home Single Language
+	CPU: 8x Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, 15.8 GiB RAM
+	Active video adapter Intel(R) UHD Graphics 620
+	Installed video RAM: 1024 MB
+	Current video mode: 1920 x 1080 x 4294967296 colors
+	Used bit depth: 32
+	Driver version: 25.20.100.6617
+	Installed display drivers: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_11ef66dd2affe831\igdumdim64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_11ef66dd2affe831\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_11ef66dd2affe831\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_11ef66dd2affe831\igd12umd64.dll
+	Current user language: Turkish (Turkey)
+
+22:08:23 [INF][      Workbench]: UI is up
+22:08:24 [INF][      Workbench]: Running the application
+22:08:25 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.32
+22:08:25 [INF][        WQE.net]: Launching SQL IDE
+22:08:26 [INF][        WQE.net]: SQL IDE UI is ready
