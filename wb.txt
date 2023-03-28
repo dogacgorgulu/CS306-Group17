@@ -1,0 +1,355 @@
+17:28:13 [ERR][      Workbench]: Console redirection failed.
+17:28:13 [INF][      Workbench]: Starting up Workbench
+17:28:13 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\WINDOWS\system32
+	TickCount: 465612937
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 42708992
+17:28:13 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DOGAC
+	USERPROFILE = C:\Users\dogac
+	HOMEPATH = \Users\dogac
+	LOCALAPPDATA = C:\Users\dogac\AppData\Local
+	configsetroot = C:\WINDOWS\ConfigSetRoot
+	PROCESSOR_ARCHITECTURE = AMD64
+	Path = C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Users\dogac\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dogac\AppData\Local\Programs\Python\Python310\;C:\Users\dogac\AppData\Local\Microsoft\WindowsApps;;C:\Users\dogac\AppData\Local\Programs\Microsoft VS Code\bin
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PROCESSOR_LEVEL = 6
+	LOGONSERVER = \\DOGAC
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+	SystemRoot = C:\WINDOWS
+	TEMP = C:\Users\dogac\AppData\Local\Temp
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	APPDATA = C:\Users\dogac\AppData\Roaming
+	PROCESSOR_REVISION = 8e0b
+	USERNAME = dogac
+	CommonProgramW6432 = C:\Program Files\Common Files
+	CommonProgramFiles = C:\Program Files\Common Files
+	OneDrive = C:\Users\dogac\OneDrive
+	EFC_19708 = 1
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DOGAC
+	PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 11, GenuineIntel
+	ComSpec = C:\WINDOWS\system32\cmd.exe
+	USERDOMAIN = DOGAC
+	SystemDrive = C:
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 8
+	TMP = C:\Users\dogac\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\WINDOWS
+	SESSIONNAME = Console
+	PUBLIC = C:\Users\Public
+17:28:13 [INF][      Workbench]: Current version given by meta info is: 8.0.32
+17:28:13 [INF][      Workbench]: Setting PATH to: C:\WINDOWS\system32;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Users\dogac\AppData\Local\Microsoft\WindowsApps;;C:\Users\dogac\AppData\Local\Programs\Microsoft VS Code\bin
+17:28:13 [INF][ mforms managed]: Initializing mforms wrapper
+17:28:14 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	user data dir: C:\Users\dogac\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+17:28:14 [INF][      WBContext]: WbContext::init
+17:28:15 [INF][            WBA]: Looking for extension modules for WBA...
+17:28:15 [INF][            WBA]: 0 extension modules found
+17:28:15 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+17:28:15 [WRN][            grt]: C:\Users\dogac\AppData\Roaming\MySQL\Workbench\connections.xml:18: link '{5CD80812-2110-455D-90A4-4BFD05C8FE49}' <object GrtObject> key=owner could not be resolved
+17:28:15 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+17:28:16 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.32 CE build 2612062 (64 bit)
+	Configuration Directory: C:\Users\dogac\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	Cairo Version: 1.17.6
+	OS: Microsoft Windows 10 Home Single Language
+	CPU: 8x Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, 15.8 GiB RAM
+	Active video adapter Intel(R) UHD Graphics 620
+	Installed video RAM: 1024 MB
+	Current video mode: 1920 x 1080 x 4294967296 colors
+	Used bit depth: 32
+	Driver version: 25.20.100.6617
+	Installed display drivers: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_11ef66dd2affe831\igdumdim64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_11ef66dd2affe831\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_11ef66dd2affe831\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_11ef66dd2affe831\igd12umd64.dll
+	Current user language: Turkish (Turkey)
+
+17:28:16 [INF][      Workbench]: UI is up
+17:28:16 [INF][      Workbench]: Running the application
+17:28:18 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.32
+17:28:18 [INF][        WQE.net]: Launching SQL IDE
+17:28:18 [INF][        WQE.net]: SQL IDE UI is ready
+21:56:29 [INF][         Wizard]: Execute 'Prepare Import'
+21:56:29 [INF][         Wizard]: Starting thread for 'Import data file'
+22:00:40 [INF][  TableEditorBE]: Creating stub schema and table mydb.country for foreign key
+22:07:47 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:07:47 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:08:27 [ERR][SQL Editor Form]: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL ,
+ADD PRIMARY KEY (`﻿iso_code`, `year`)' at line 3
+SQL Statement:
+ALTER TABLE `mydb`.`death` 
+CHANGE COLUMN `﻿iso_code` `﻿iso_code` VARCHAR(5) NOT NULL ,
+CHANGE COLUMN `year` `year`  NOT NULL ,
+ADD PRIMARY KEY (`﻿iso_code`, `year`)
+
+
+22:08:34 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:08:34 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:10:02 [ERR][SQL Editor Form]: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL ,
+ADD PRIMARY KEY (`﻿iso_code`)' at line 3
+SQL Statement:
+ALTER TABLE `mydb`.`death` 
+CHANGE COLUMN `﻿iso_code` `﻿iso_code` VARCHAR(5) NOT NULL ,
+CHANGE COLUMN `year` `year`  NULL ,
+ADD PRIMARY KEY (`﻿iso_code`)
+
+
+22:10:13 [WRN][  TableEditorBE]: VARCHAR is not a valid column type
+22:10:36 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:10:36 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:10:42 [ERR][SQL Editor Form]: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL ,
+ADD PRIMARY KEY (`﻿iso_code`)' at line 3
+SQL Statement:
+ALTER TABLE `mydb`.`death` 
+CHANGE COLUMN `﻿iso_code` `﻿iso_code` TEXT NOT NULL ,
+CHANGE COLUMN `year` `year`  NULL ,
+ADD PRIMARY KEY (`﻿iso_code`)
+
+
+22:10:53 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:10:53 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:11:01 [ERR][SQL Editor Form]: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL' at line 3
+SQL Statement:
+ALTER TABLE `mydb`.`death` 
+CHANGE COLUMN `﻿iso_code` `﻿iso_code` VARCHAR(5) NULL ,
+CHANGE COLUMN `year` `year`  NULL 
+
+
+22:11:09 [WRN][         mforms]: Resource file not found: db.Constraints.16x16.png
+22:11:09 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+22:11:09 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:11:09 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:12:47 [WRN][         mforms]: Resource file not found: db.Constraints.16x16.png
+22:12:47 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+22:12:47 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:12:47 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:13:09 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:13:09 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:13:24 [ERR][SQL Editor Form]: Error 1062: Duplicate entry 'AFG' for key 'death.PRIMARY'
+SQL Statement:
+ALTER TABLE `mydb`.`death` 
+CHANGE COLUMN `﻿iso_code` `﻿iso_code` VARCHAR(5) NOT NULL ,
+ADD PRIMARY KEY (`﻿iso_code`)
+
+
+22:13:41 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:13:41 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:13:46 [ERR][SQL Editor Form]: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL ,
+ADD PRIMARY KEY (`year`, `﻿iso_code`)' at line 3
+SQL Statement:
+ALTER TABLE `mydb`.`death` 
+CHANGE COLUMN `﻿iso_code` `﻿iso_code` VARCHAR(5) NOT NULL ,
+CHANGE COLUMN `year` `year`  NOT NULL ,
+ADD PRIMARY KEY (`year`, `﻿iso_code`)
+
+
+22:13:50 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:13:50 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:13:52 [ERR][SQL Editor Form]: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL ,
+ADD PRIMARY KEY (`year`)' at line 3
+SQL Statement:
+ALTER TABLE `mydb`.`death` 
+CHANGE COLUMN `﻿iso_code` `﻿iso_code` VARCHAR(5) NULL ,
+CHANGE COLUMN `year` `year`  NOT NULL ,
+ADD PRIMARY KEY (`year`)
+
+
+22:14:33 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:14:33 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:14:40 [ERR][SQL Editor Form]: Error 1062: Duplicate entry '1950' for key 'death.PRIMARY'
+SQL Statement:
+ALTER TABLE `mydb`.`death` 
+CHANGE COLUMN `﻿iso_code` `﻿iso_code` VARCHAR(5) NULL ,
+CHANGE COLUMN `year` `year` INT(5) NOT NULL ,
+ADD PRIMARY KEY (`year`)
+
+
+22:17:22 [INF][  TableEditorBE]: Creating stub schema and table mydb.country for foreign key
+22:18:14 [ERR][SQL Editor Form]: 
+22:18:27 [ERR][SQL Editor Form]: 
+22:18:55 [ERR][SQL Editor Form]: 
+22:21:53 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:21:56 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:24:41 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:24:45 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:24:47 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:24:54 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:26:44 [ERR][SQL Editor Form]: Error Code: 1072. Key column 'iso_code' doesn't exist in table
+22:27:28 [ERR][SQL Editor Form]: Error Code: 1072. Key column 'iso_code' doesn't exist in table
+22:29:03 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:29:03 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:29:03 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:29:04 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:29:07 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:29:11 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:29:11 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:29:11 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:29:31 [ERR][SQL Editor Form]: Error Code: 1072. Key column 'iso_code' doesn't exist in table
+22:31:59 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:00 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:00 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:01 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:02 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:02 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:02 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:05 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:05 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:05 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:05 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:45 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:50 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:32:54 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:33:01 [ERR][SQL Editor Form]: Error Code: 1068. Multiple primary key defined
+22:34:00 [ERR][SQL Editor Form]: Error Code: 1072. Key column 'iso_code' doesn't exist in table
+22:34:09 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:34:09 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:34:10 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:34:11 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:34:15 [ERR][SQL Editor Form]: Error Code: 1072. Key column 'iso_code' doesn't exist in table
+22:38:01 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:38:03 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:38:58 [WRN][         mforms]: Resource file not found: db.Constraints.16x16.png
+22:38:58 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+22:38:58 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:38:58 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:40:10 [ERR][SQL Editor Form]: Error Code: 1072. Key column 'iso_code' doesn't exist in table
+22:40:37 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:40:40 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:42:06 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:42:07 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:43:22 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+22:43:49 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+22:43:49 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+22:43:58 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: YES)
+22:43:58 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: YES)
+22:43:58 [ERR][    WQE backend]: Got an exception during connection: Access denied for user 'root'@'localhost' (using password: YES)
+22:43:59 [ERR][SQL Editor Form]: SQL editor could not be connected: Access denied for user 'root'@'localhost' (using password: YES)
+22:43:59 [ERR][SQL Editor Form]: Your connection attempt failed for user 'root' to the MySQL server at 127.0.0.1:3306:
+  Access denied for user 'root'@'localhost' (using password: YES)
+
+Please:
+1 Check that MySQL is running on address 127.0.0.1
+2 Check that MySQL is reachable on port 3306 (note: 3306 is the default, but this can be changed)
+3 Check the user root has rights to connect to 127.0.0.1 from your address (MySQL rights define what clients can connect to the server and from which machines) 
+4 Make sure you are both providing a password if needed and using the correct password for 127.0.0.1 connecting from the host address you're connecting from
+22:44:01 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: YES)
+22:44:01 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: YES)
+22:44:01 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: YES)
+22:44:01 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: YES)
+22:44:05 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: YES)
+22:44:05 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: YES)
+22:44:16 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: YES)
+22:44:16 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: YES)
+22:44:18 [INF][    WQE backend]: User cancelled connection
+22:44:18 [INF][      WBContext]: Connection to newlocal cancelled by user: Cancelled
+22:44:20 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+22:44:20 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+22:44:21 [INF][    WQE backend]: User cancelled connection
+22:44:21 [INF][      WBContext]: Connection to newlocal cancelled by user: Cancelled
+22:44:30 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+22:44:30 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+22:44:42 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: YES)
+22:44:42 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: YES)
+22:44:42 [ERR][SQL Editor Form]: SQL editor could not be connected: Access denied for user 'root'@'localhost' (using password: YES)
+22:44:42 [ERR][SQL Editor Form]: Your connection attempt failed for user 'root' to the MySQL server at 127.0.0.1:3306:
+  Access denied for user 'root'@'localhost' (using password: YES)
+
+Please:
+1 Check that MySQL is running on address 127.0.0.1
+2 Check that MySQL is reachable on port 3306 (note: 3306 is the default, but this can be changed)
+3 Check the user root has rights to connect to 127.0.0.1 from your address (MySQL rights define what clients can connect to the server and from which machines) 
+4 Make sure you are both providing a password if needed and using the correct password for 127.0.0.1 connecting from the host address you're connecting from
+22:45:17 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+22:45:17 [WRN][SQL Editor Form]: Unable to connect to localhost
+22:45:17 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+22:45:17 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+22:45:18 [INF][  column_widths]: Initializing column width cache for newhost1
+22:45:18 [INF][        WQE.net]: Launching SQL IDE
+22:45:18 [INF][        WQE.net]: SQL IDE UI is ready
+22:45:22 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+22:45:23 [INF][wb_admin_control.py:query_server_installation_info:860]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+22:45:26 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+22:45:30 [INF][        WQE.net]: Shutting down SQL editor (newhost1)
+22:46:24 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.32
+22:46:24 [INF][        WQE.net]: Launching SQL IDE
+22:46:25 [INF][        WQE.net]: SQL IDE UI is ready
+22:47:52 [ERR][SQL Editor Form]: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+22:48:58 [INF][         Wizard]: Execute 'Prepare Import'
+22:48:59 [INF][         Wizard]: Starting thread for 'Import data file'
+22:48:59 [ERR][sqlide_power_import_export_be.py:start_import:486]: Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Row import failed with error: ("Data too long for column 'country_name' at row 1", 1406)Error Code: 3730. Cannot drop table 'countries' referenced by a foreign key constraint 'population_ibfk_1' on table 'population'.
+22:49:47 [ERR][SQL Editor Form]: Error Code: 3730. Cannot drop table 'countries' referenced by a foreign key constraint 'population_ibfk_1' on table 'population'.
+22:51:33 [INF][         Wizard]: Execute 'Prepare Import'
+22:51:33 [INF][         Wizard]: Starting thread for 'Import data file'
+22:51:33 [ERR][sqlide_power_import_export_be.py:start_import:486]: Row import failed with error: ("Duplicate entry 'AFG' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ALB' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'DZA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ASM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'AGO' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'AIA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ARG' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ARM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'AUS' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'AUT' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'AZE' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BHS' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BGD' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BRB' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BLR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BEL' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BLZ' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BEN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BMU' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BTN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BOL' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BWA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BRA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BRN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BGR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BFA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'BDI' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'KHM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'CMR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'CAN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'CPV' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'CYM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'TCD' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'Chile' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'CHN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'COL' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'COM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'COG' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'COK' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'CRI' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'CIV' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'HRV' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'CUB' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'CYP' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'CZE' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'DNK' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'DJI' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'DMA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ECU' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'EGY' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SLV' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ERI' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'EST' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SWZ' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ETH' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'FJI' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'FIN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'FRA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GUF' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GAB' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GMB' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GEO' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'DEU' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GHA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GRC' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GRD' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GLP' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GUM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GTM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GIN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GNB' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GUY' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'HTI' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'HND' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'HKG' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'HUN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ISL' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'IND' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'IDN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'IRN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'IRQ' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'IRL' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'IMN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ISR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ITA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'JAM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'JPN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'JOR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'KAZ' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'KEN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'KIR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'KWT' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'KGZ' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'LAO' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'LVA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'LBN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'LSO' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'LBR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'LBY' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'LTU' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'LUX' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MAC' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MDG' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MWI' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MYS' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MDV' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MLI' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MTQ' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MRT' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MUS' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MEX' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MDA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MNG' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MNE' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MSR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MAR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MOZ' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MMR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'NAM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'NPL' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'NDL' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'NCL' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'NZL' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'NIC' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'NER' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'NGA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'NIU' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'PRK' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'MKD' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'NOR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'OMN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'PAK' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'PLW' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'PSE' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'PAN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'PRY' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'PER' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'PHL' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'POL' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'PRT' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'PRI' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'QAT' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'REU' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ROU' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'RUS' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'RWA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SHN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'LCA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'WSM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SAU' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SEN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SRB' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SYC' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SLE' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SVK' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SVN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SLB' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SOM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ZAF' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'KOR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SSD' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ESP' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'LKA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SDN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SUR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SWE' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'CHE' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'SYR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'TWN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'TJK' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'TZA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'THA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'TLS' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'TGO' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'TKL' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'TON' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'TUN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'TUR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'TKM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'TUV' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'UGA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'UKR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'GBR' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'USA' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'URY' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'UZB' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'VUT' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'VEN' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'VNM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'YEM' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ZMB' for key 'countries.PRIMARY'", 1062)Row import failed with error: ("Duplicate entry 'ZWE' for key 'countries.PRIMARY'", 1062)Resource file not found: db.Constraints.16x16.png
+22:52:08 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+22:52:08 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:52:08 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:52:08 [ERR][sqlide_tableman_ext.py:show_table:1186]: Error initializing tab constraints: Traceback (most recent call last):
+  File "C:\Program Files\MySQL\MySQL Workbench 8.0\modules\sqlide_tableman_ext.py", line 1183, in show_table
+    tab.show_table(schema, table)
+  File "C:\Program Files\MySQL\MySQL Workbench 8.0\modules\sqlide_tableman_ext.py", line 854, in show_table
+    self.refresh()
+  File "C:\Program Files\MySQL\MySQL Workbench 8.0\modules\sqlide_catalogman_ext.py", line 373, in refresh
+    self.preload_data(self.get_query())
+  File "C:\Program Files\MySQL\MySQL Workbench 8.0\modules\sqlide_catalogman_ext.py", line 367, in preload_data
+    node.set_string(i, rset.stringFieldValueByName(field) or "" if format_func is None else format_func(rset.stringFieldValueByName(field)))
+SystemError: invalid column constraint_name for resultset
+
+22:52:40 [ERR][SQL Editor Form]: Error Code: 3730. Cannot drop table 'countries' referenced by a foreign key constraint 'population_ibfk_1' on table 'population'.
+22:52:52 [WRN][         mforms]: Resource file not found: db.StoredProcedure.16x16.png
+22:52:52 [WRN][         mforms]: Resource file not found: db.Function.16x16.png
+22:52:52 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:53:32 [INF][         Wizard]: Execute 'Prepare Import'
+22:53:32 [INF][         Wizard]: Starting thread for 'Import data file'
+22:54:21 [INF][         Wizard]: Execute 'Prepare Import'
+22:54:21 [INF][         Wizard]: Starting thread for 'Import data file'
+22:54:22 [ERR][sqlide_power_import_export_be.py:start_import:486]: Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Row import failed with error: ('Cannot add or update a child row: a foreign key constraint fails (`mydb`.`deaths`, CONSTRAINT `deaths_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)', 1452)Execute 'Prepare Import'
+23:16:48 [INF][         Wizard]: Starting thread for 'Import data file'
+23:17:22 [INF][         Wizard]: Execute 'Prepare Import'
+23:17:22 [INF][         Wizard]: Starting thread for 'Import data file'
+23:18:02 [INF][         Wizard]: Execute 'Prepare Import'
+23:18:02 [INF][         Wizard]: Starting thread for 'Import data file'
+23:18:02 [ERR][sqlide_power_import_export_be.py:start_import:486]: Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_reconstruction_costs' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_insured_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_insured_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_insured_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_reconstruction_costs' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_insured_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_insured_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_insured_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_insured_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)Row import failed with error: ("Out of range value for column 'total_economic_damages' at row 1", 1264)WBContext: exception in flush idle task: Exception: 
+23:21:49 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+23:22:41 [INF][         Wizard]: Execute 'Prepare Import'
+23:22:41 [INF][         Wizard]: Starting thread for 'Import data file'
+23:23:19 [INF][         Wizard]: Execute 'Prepare Import'
+23:23:19 [INF][         Wizard]: Starting thread for 'Import data file'
+23:24:00 [INF][         Wizard]: Execute 'Prepare Import'
+23:24:00 [INF][         Wizard]: Starting thread for 'Import data file'
+23:53:27 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+23:53:28 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+23:53:28 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+23:53:42 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+23:53:44 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+23:53:46 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+23:54:30 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+23:54:45 [ERR][SQL Editor Form]: Error Code: 1146. Table 'mydb.death' doesn't exist
