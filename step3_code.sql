@@ -136,3 +136,36 @@ FROM top_20_injuries LEFT JOIN top_20_deaths ON top_20_injuries.iso_code = top_2
 -- Countries that show up on both these views, notice that these are the only countries without null values in both tables
 SELECT top_20_injuries.iso_code FROM top_20_injuries
 INNER JOIN top_20_deaths ON top_20_injuries.iso_code = top_20_deaths.iso_code;
+
+-- Trigger and constraint
+
+-- Determine the minimum and the maximum year
+SELECT MIN(the_year) AS min_year, MAX(the_year) AS max_year FROM population;
+
+-- Set these as constraints on our population table
+ALTER TABLE population ADD CONSTRAINT chk_year_range CHECK (the_year BETWEEN 1950 AND 2020); 
+
+-- Create a trigger for insertion and update
+DELIMITER //
+CREATE TRIGGER trg_before_insert_population BEFORE INSERT ON population
+FOR EACH ROW
+BEGIN
+    IF NEW.the_year < 1950 THEN
+        SET NEW.the_year = 1950;
+    ELSEIF NEW.the_year > 2020 THEN
+        SET NEW.the_year = 2020;
+    END IF;
+END //
+DELIMITER //
+
+DELIMITER //
+CREATE TRIGGER trg_before_update_population BEFORE UPDATE ON population
+FOR EACH ROW
+BEGIN
+    IF NEW.the_year < 1950 THEN
+        SET NEW.the_year = 1950;
+    ELSEIF NEW.the_year > 2020 THEN
+        SET NEW.the_year = 2020;
+    END IF;
+END //
+DELIMITER //
