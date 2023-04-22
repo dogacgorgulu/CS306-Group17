@@ -156,7 +156,7 @@ BEGIN
         SET NEW.the_year = 2020;
     END IF;
 END //
-DELIMITER //
+DELIMITER ;
 
 DELIMITER //
 CREATE TRIGGER trg_before_update_population BEFORE UPDATE ON population
@@ -168,4 +168,4 @@ BEGIN
         SET NEW.the_year = 2020;
     END IF;
 END //
-DELIMITER //
+DELIMITER ;
